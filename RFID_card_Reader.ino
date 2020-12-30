@@ -27,7 +27,6 @@ void setup() // THIS IS THE VOID SETPUP FUNCTION . IT ALLOW A CODE TO RUN ONCE. 
 // this code only grants access to memebers of group 7 computer engineering
 void loop(){ // THIS IS THE LOOP FUNCTION , WHERE EVERYTHING INSIDE IT RUNS MORE THAT ONCE
  if ( ! mfrc522.PICC_IsNewCardPresent()) { // THIS FUNCTION MEANS THAT IF THE CARD READER SENSES AND ID CARD IT RETURNS A DEFAULT VALUE TO
-READ IT
  return;
  }
  if ( ! mfrc522.PICC_ReadCardSerial()) {
@@ -37,7 +36,6 @@ READ IT
  String content =""; // THIS SIMPY SAY THAT THE VARIABLE NAME "CONTENT " IS A STRING
  byte letter; // THIS SIMPLY MEANS THAT THE VARIABLE NAME "LETTER" IS A BYTE
  for(byte i=0;i<mfrc522.uid.size; i++) // THIS SIMPLY MEANS THAT THE FUNCTION WILL RUN AS LONG AS THE READ DATA IS UP THE THE CARDREADER
-ARRAY SIZE
  {
  Serial.print(mfrc522.uid.uidByte[i] < 0x10 ? " 0": " ");
  Serial.print(mfrc522.uid.uidByte[i], HEX);
@@ -48,7 +46,6 @@ ARRAY SIZE
  Serial.print("Message :"); //THIS SIMPLY PRINTS "MESSAGE" ON THE SERIAL MONITOR
  content.toUpperCase();
  if(content.substring(1) =="94 E8 90 91") // THIS IS A DECISION STATEMENT COMPARING THE STRING OF THE CARD TO THIS SET OF HEXADECIMALS" 94 E8
-90 91"
  {
  lcd.clear();
  Serial.println("Authorised"); // THIS SIMPLY PRINTS AUTHORISED ON THE SERIAL MONITOR
