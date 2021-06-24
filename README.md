@@ -1,3 +1,12 @@
-# Attendance-Systems-Using-RFID-Readers-
-Scan RFID Cards with an RFID Reader. We use SPI for data transfer, atmega microcontrollers for data processing and an LCD to show the state of authentication.
-Written in C. 
+# Attendance Using RFID Reader and RFID Tags
+
+I got to assemble and code and an atmega328pu Micro controller with a few friends.
+
+### Tools and Components Needed
+- [ ] Liquid Crystal Display ( 16 x 2)
+- [ ] Micro Controller (ATMEGA328P-PU)
+- [ ] BreadBoard
+- [ ] Male to Female Jumpers
+- [ ] RFID Tag
+- [ ] RFID Card Reader
+- [ ] A PC
