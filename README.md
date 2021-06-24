@@ -1,6 +1,6 @@
 # Attendance Using RFID Reader and RFID Tags
 
-I got to assemble and code and an atmega328pu Micro controller with a few friends.
+I got to assemble and code an atmega328pu Micro controller to read data from an RFID Tag with a few friends.
 
 ### Tools and Components Needed
 - [ ] Liquid Crystal Display ( 16 x 2)
