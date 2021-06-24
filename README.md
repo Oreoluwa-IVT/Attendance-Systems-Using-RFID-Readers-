@@ -1,4 +1,4 @@
-# Attendance Using RFID Reader and RFID Tags
+# Capture Attendance Using An RFID Reader and RFID Tags 
 
 I got to assemble and code an atmega328pu Micro controller to read data from an RFID Tag with a few friends.
 
