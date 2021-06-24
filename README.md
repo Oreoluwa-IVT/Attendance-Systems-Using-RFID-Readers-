@@ -2,7 +2,7 @@
 
 I got to assemble and code an atmega328pu Micro controller to read data from an RFID Tag with a few friends.
 
-### Tools and Components Needed
+### Hardware
 - [ ] Liquid Crystal Display ( 16 x 2)
 - [ ] Micro Controller (ATMEGA328P-PU)
 - [ ] BreadBoard
@@ -10,3 +10,6 @@ I got to assemble and code an atmega328pu Micro controller to read data from an 
 - [ ] RFID Tag
 - [ ] RFID Card Reader
 - [ ] A PC
+
+### Software
+- [ ] Arduino IDE
